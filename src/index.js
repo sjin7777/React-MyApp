@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+<<<<<<< HEAD
 /* Sec03 */
 import Library from './chapter_03/Library';
 
@@ -14,6 +15,12 @@ import Clock from './chapter_04/Clock';
 /* Sec03 */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+=======
+/* 추가 */
+import Library from './chapter_03/Library';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+>>>>>>> 2c70fde471ff327935f2fab6076e6f36312fb96d
 /* 수정 전 */
 // root.render(
 //   <React.StrictMode>
@@ -21,6 +28,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   </React.StrictMode>
 // );
 
+<<<<<<< HEAD
 /* Sec03 */
 // root.render(
 //   <React.StrictMode>
@@ -47,6 +55,18 @@ setInterval(() => {
     </React.StrictMode>
   );
 }, 1000);
+
+=======
+/* 수정 후 */
+root.render(
+  <React.StrictMode>
+    <Library />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+>>>>>>> 2c70fde471ff327935f2fab6076e6f36312fb96d
+
+
 
 
 // If you want to start measuring performance in your app, pass a function
