@@ -13,6 +13,9 @@ import Clock from './chapter_04/Clock';
 /* Sec05 */
 import CommentList from './chapter_05/CommentList';
 
+/* Sec06 */
+import NotificationList from './chapter_06/NotificationList';
+
 /* Sec03 */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -65,11 +68,31 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // );
 
 // 에러 수정 후
+// root.render(
+//   <React.StrictMode>
+//     <CommentList />
+//   </React.StrictMode>
+// )
+
+
+/* Sec06 */
+// 에러로 인해 수정..
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <NotificationList />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+// 에러 수정 후
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <NotificationList />
   </React.StrictMode>
 )
+
+
+
 
 
 
