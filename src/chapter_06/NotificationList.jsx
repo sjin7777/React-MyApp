@@ -52,19 +52,11 @@ class NotificationList extends React.Component {
             }
         }, 1000);
     }
-
-    /* 댓글 보고 추가 */
-    componentWillUnmount() {
-        if(timer) {
-            clearInterval(timer);
-        }
-    }
     
     render() {
         return (
             <div>
                 {this.state.notifications.map((notification) => {
-                    // return <Notification message={notification.message} />;
                     return (
                         <Notification
                             key={notification.id}

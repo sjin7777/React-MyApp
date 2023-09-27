@@ -16,6 +16,9 @@ import CommentList from './chapter_05/CommentList';
 /* Sec06 */
 import NotificationList from './chapter_06/NotificationList';
 
+/* Sec07 */
+import Accommodate from './chapter_07/Accommodate';
+
 /* Sec03 */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -85,12 +88,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // );
 
 // 에러 수정 후
-root.render(
-  <React.StrictMode>
-    <NotificationList />
-  </React.StrictMode>
-)
+// root.render(
+//     <NotificationList />
+// )
 
+
+/* Sec07 */
+root.render(
+    <Accommodate />
+)
 
 
 

@@ -25,6 +25,7 @@ class Notification extends React.Component {
 
 
     /* Lifecycle method 추가 */
+    
     componentDidMount() {
         console.log(`${this.props.id} componentDidMount() called.`);
     }
