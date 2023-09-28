@@ -19,6 +19,12 @@ import NotificationList from './chapter_06/NotificationList';
 /* Sec07 */
 import Accommodate from './chapter_07/Accommodate';
 
+/* Sec08 */
+import ConfirmButton from './chapter_08/ConfirmButton';
+
+/* Sec09 */
+import LandingPage from './chapter_09/LandingPage'
+
 /* Sec03 */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -94,11 +100,21 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 /* Sec07 */
+// root.render(
+//     <Accommodate />
+// )
+
+
+/* Sec08 */
+// root.render(
+//     <ConfirmButton />
+// )
+
+
+/* Sec09 */
 root.render(
-    <Accommodate />
+    <LandingPage />
 )
-
-
 
 
 
