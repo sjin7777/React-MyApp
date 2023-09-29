@@ -25,6 +25,16 @@ import ConfirmButton from './chapter_08/ConfirmButton';
 /* Sec09 */
 import LandingPage from './chapter_09/LandingPage'
 
+/* Sec10 */
+import AttendanceBook from './chapter_10/AttendanceBook';
+
+/* Sec11 */
+import SignUp from './chapter_11/SignUp';
+
+/* Sec12 */
+import Calculator from './chapter_12/Calculator';
+
+
 /* Sec03 */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -112,9 +122,25 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 /* Sec09 */
+// root.render(
+//     <LandingPage />
+// )
+
+/* Sec10 */
+// root.render(
+//     <AttendanceBook />
+// )
+
+/* Sec11 */
+// root.render(
+//     <SignUp />
+// )
+
+/* Sec12 */
 root.render(
-    <LandingPage />
+    <Calculator />
 )
+
 
 
 
