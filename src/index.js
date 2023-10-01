@@ -34,6 +34,12 @@ import SignUp from './chapter_11/SignUp';
 /* Sec12 */
 import Calculator from './chapter_12/Calculator';
 
+/* Sec13 */
+import ProfileCard from './chapter_13/ProfileCard';
+
+/* Sec14 */
+import DarkOrLight from './chapter_14/DarkOrLight';
+
 
 /* Sec03 */
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -137,11 +143,19 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 
 /* Sec12 */
+// root.render(
+//     <Calculator />
+// )
+
+/* Sec13 */
+// root.render(
+//     <ProfileCard />
+// )
+
+/* Sec14 */
 root.render(
-    <Calculator />
+    <DarkOrLight />
 )
-
-
 
 
 // If you want to start measuring performance in your app, pass a function
