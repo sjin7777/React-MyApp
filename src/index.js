@@ -40,6 +40,9 @@ import ProfileCard from './chapter_13/ProfileCard';
 /* Sec14 */
 import DarkOrLight from './chapter_14/DarkOrLight';
 
+/* Sec15 */
+import Blocks from './chapter_15/Blocks';
+
 
 /* Sec03 */
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -153,10 +156,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 
 /* Sec14 */
-root.render(
-    <DarkOrLight />
-)
+// root.render(
+//     <DarkOrLight />
+// )
 
+/* Sec15 */
+root.render(
+    <Blocks />
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
